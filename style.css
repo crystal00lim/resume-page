@@ -1,4 +1,14 @@
 .header {
   margin-bottom: 0px;
   margin-top: 0px;
+  text-align: center;
+}
+.header2 {
+  margin-top: 0px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+#line {
+  border-bottom-style: solid;
+  border-bottom-color: midnightblue;
 }
