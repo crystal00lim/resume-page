@@ -15,7 +15,8 @@
 #contact {
   text-align: center;
 }
-#position {
+.position {
+  text-align: center;
   border-style: solid;
   border-top-color: powderblue;
   border-bottom-color: midnightblue;
