@@ -14,4 +14,13 @@
 }
 #contact {
   text-align: center;
+  padding-bottom: 5px;
+}
+#position {
+  text-align: center;
+  border-style: solid;
+  border-top-color: powderblue;
+  border-bottom-color: midnightblue;
+  border-left-color: transparent;
+  border-right-color: transparent;
 }
