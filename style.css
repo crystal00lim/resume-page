@@ -23,3 +23,13 @@
   border-left-color: transparent;
   border-right-color: transparent;
 }
+.header3 {
+  margin-top: 15px;
+  text-align: left;
+  padding-bottom: 10px;
+}
+#line2 {
+  border-bottom-style: solid;
+  border-bottom-color: midnightblue;
+  border-width: 2px;
+}
