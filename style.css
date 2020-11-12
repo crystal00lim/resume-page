@@ -37,6 +37,8 @@
 }
 #side {
   background-color: Powderblue;
+  margin-top: 10px;
+  padding-top: 0px;
 }
 #line3 {
   border-bottom-style: solid;
