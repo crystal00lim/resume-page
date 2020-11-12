@@ -22,6 +22,8 @@
   border-bottom-color: midnightblue;
   border-left-color: transparent;
   border-right-color: transparent;
+  margin-top: 0px;
+  padding-top: 5px;
 }
 .header3 {
   margin-top: 15px;
@@ -36,7 +38,12 @@
 #side {
   background-color: Powderblue;
 }
-#line2. {
+#line3 {
   border-bottom-style: solid;
   border-bottom-color: powderblue;
+  border-width: 2px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  margin-top: 0px;
+  padding-top: 0px;
 }
