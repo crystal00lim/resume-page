@@ -1,0 +1,111 @@
+/* 	To change the tab width on TextEdit, go to terminal and type in:
+		defaults write com.apple.TextEdit "TabWidth" '2' 
+    (4 was the original width) */
+
+/*	To have a div that is in position: absolute; 
+		means that it will be overpowering its parent element.
+		This means that it will not be able to wrap over any other element within itself. */
+
+body {
+  font-family: "Times New Roman";
+	  /* vh stands for viewing height, 
+    the number is the percentage of the screen's available space. */
+  min-height: 100vh;
+	margin: 0px;
+}
+
+.banner {
+	position: absolute;
+	top: 1%;
+	height: 99%;
+	left: 8%;
+    /* 	calc(percentage of the screen - amount of pixels)
+			means that when you resize the screen, 
+			there will always be a certain amount of pixels the image will not fill.
+			For this instance, since the image is 25px offset from the left of the screen,
+			the rest of the 50x (25px) will be at the right of the screen. */
+	width: calc(100% - 70%);
+      /* background-radius rounds the edges of the div box.
+      It can take in px or % depending on the need. 
+      50% is circle/eclipse. */
+	border-radius: 15px;
+	background-color: #618685;
+	z-index: 0;
+}
+
+.absolute {
+			/* when using css math functions, 
+      the position of the object needs to be in absolute. */
+	position: absolute;
+	left: 1%;
+	width: calc(100% - 2%);
+	height: 100vh;
+    /* In order to use z-index: _; the position cannot be static (default).
+    It can be relative or absolute...etc. 
+    But note that absolute position will make the element larger than parent element. */
+	z-index: 1;
+}
+
+.topsapce {
+	width: 100%;
+	height: 10%;
+}
+
+.across {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	height: 25%;
+}
+
+.image {
+	width: 100%;
+	height: 70%;
+	background-image: url(mitoLyso.png);
+	background-position: center center;
+	border-radius: 15px;
+	position: relative;
+	z-index: 0;
+	align-items: center;
+	display: flex;
+}
+
+.portrait {
+	float: left;
+	width: max(48%);
+	height: 150%;
+	display: flex;
+	align-items: center;
+	position: relative;
+	z-index: 1;
+}
+
+/*	made from a responsive square. */
+.circle {
+	height: 0;
+	width: 40%;
+    /* This makes the height of the 'line' the same as the width. */
+	padding-bottom: 40%;
+    /* In order to use "top: _;, bottom: _; left: _; right: _; the position must not be static. */
+	position: relative;
+	left: 25%;
+	border-radius: 50%;
+	background-image: url(BusinessPortrait.JPG);
+	background-size: 265px 379px;
+	background-position: center 10%;
+}
+
+.title {
+	float: right;
+	color: white;
+	width: max(50%);
+	text-align: right;
+	margin: 0px;
+	position: relative;
+	z-index: 1;
+}
+
+#name {
+	font-size: 50px;
+	margin: 0px;
+}
